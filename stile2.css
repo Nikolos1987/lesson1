@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none ;
+}
+header{
+    background: black;
+    padding:17px 0 18px 0;
+}
+.container {
+    max-width:1140px;
+      margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__search__link{
+    margin-right: 20px;
+}
+
+.header__burgermenu__search:not(:last-child){
+   margin-right: 20px;}
+.intro{
+    height: 768px;
+    background: #F1E4E6;
+}
+.intro__wrap__text{
+    max-width: 450px;
+    margin-right: 59px;
+       }
+.intro__wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    background-image: url(image/Layer_57-removebg-preview\ 1.png);
+    background-repeat: no-repeat;
+    background-position: -228px;
+  }
+  .intro__wrap__text h1{
+      padding-left: 20px;
+      border-left: 12px solid red;
+  }
+  .intro__wrap__text__brand{
+    font-size: 48px;
+  }
+  .intro__wrap__text__fashion{
+      color: red;
+  }
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+ .cards__forwooman {  display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+   
+     
+}
+.cards__formen {
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+   }
+   .cards__forwooman__layes{display: flex;
+    justify-content: center;
+    align-items: center;
+       background:rgba(33, 22, 22, 0.7);
+         width: 100%;
+       height: 100%;
+   }
+.cards__forkids {display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+}
+.cards__accesories {
+display: flex;
+justify-content: center;
+align-items: center;
+ width: 100%;
+ height: 260px;
+ background-image: url(image/Layer\ 43.png);
+margin-top: 30px;}
+<<<<<<< HEAD
+.cards__forwooman__link__sale{
+color: white;
+text-align: center;
+font-size: 12px;
+} 
+.cards__forwooman__link__text{
+    color: tomato;
+}
+.cards__formen{
+    background-image: url(image/Rectangle\ 30.png);
+}
+.cards__forwooman__link__text{
+    text-align: center;
+}
+.cards__forkids{
+    background-image: url(image/Rectangle\ 30\ \(1\).png);
+}
+.cards__accesories{
+    background-image: url(image/Rectangle\ 20.png);
+    height: 180px;
+}
+.head__items{
+font-size: 30px;
+line-height: 36px;
+color: #222222;
+text-align: center;
+}
+.head__shop{
+font-size: 14px;
+line-height: 17px;
+color: #9F9F9F;
+}
+.head{
+    margin-top: 96px;
+}
+=======
+ 
+>>>>>>> parent of d3a183b (добавил картинки)
