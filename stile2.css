@@ -133,4 +133,32 @@ text-align: center;
 .cards__accesories{
     background-image: url(image/Rectangle\ 20\ \(1\).png);
 }
+.productscard__capsule{
+    width: 360px;
+    height: 581px;
+}
+.productscard__capsule__text__ellery{
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+}
+.productscard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productscard__capsule__text{
+    background-color: #F8F8F8;
+    height: 180px;
+   }
+.productscard__capsule__text__known{
+     font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+.productscard__capsule__image{
+    width: 360px;
+    height: 420px;
+}
 
