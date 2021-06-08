@@ -135,7 +135,7 @@ text-align: center;
 }
 .productscard__capsule{
     width: 360px;
-    height: 581px;
+    height: 608px;
 
 }
 .productscard__capsule__text__ellery{
@@ -152,8 +152,7 @@ padding-left: 16px;
     margin-top: 48px;
 }
 .productscard__capsule__text{
-    height: 180px;
-    background-color: #F8F8F8;
+     background-color: #F8F8F8;
       }
 .productscard__capsule__text__known{
      font-weight: 300;
@@ -168,4 +167,142 @@ padding-left: 16px;
     width: 360px;
     height: 420px;
 }
+.productscard__capsule__text__price{
+    color:red;
+    margin-top:18px ;
+    padding-left:16px;
+    padding-bottom: 18px;
+}
+.bottom__link{
+    color: #F26376;
+     font-size: 16px;
+    line-height: 19px;
+   
+}
+.bottom{
+    border: 1px solid #FF6A6A; padding:15px 38px 15px 38px;
+    margin-top: 18px;
+}
+.sevices{
+    background-color:black;
+    width: 100%;
+    margin-top: 95.5px;
+   
+}
+.delivery{
+width: 360px;
 
+text-align: center;
+}
+.delivery__car{
+    padding-top: 103px;
+
+}
+.delivery__text{
+    font-size: 19.96px;
+line-height: 24px;
+color: #FBFBFB;
+padding-top: 28px;
+
+}
+.delivery__lowtext{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    padding: 16px 28px 104px 28px;
+}
+.delivery__setting{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    background-image: url("image/Layer\ 41.png");
+    background-size: cover;
+    width: 100%;
+    height: 448px;
+   }
+   .input__fone{
+    background: rgba(244, 244, 244, 0.7);
+    height: 100%;
+   }
+   .input__photo{
+       width: 359px;
+       height: 225px;
+       text-align: center;
+
+   }
+   .input__photo__text{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+        color: #222224;
+        padding-top: 30px;
+   }
+   .input__photo__pic{
+       padding-top: 88px;
+   }
+ .b{
+     display: flex;
+     justify-content: space-between;
+ }
+ .input__email{
+     text-align: center;
+ }
+ .input__email__field{
+     display: flex;
+ }
+ .input__email__field__enter{
+    background: #E1E1E1;
+    height: 49px;
+    width: 256px;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border: none;
+ }
+ .input__email__field__bottom{
+    padding:15px 20px 10px 16px;
+    background: #F16D7F;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+
+ }
+ .input__email__field__bottom__link{
+    font-size: 14px;
+    line-height: 17px;
+         color: #FFFFFF;
+ 
+ }
+ .input__email__subcribe{
+    font-size: 24px;
+    line-height: 167.2%;
+       text-align: center;
+        color: #222224;
+     padding-top: 140px;
+ }
+ .input_email__promotion{
+   padding-top: 10px; 
+   padding-bottom: 32px; 
+    }
+footer{
+     background: black;
+}
+.b__socialnetwork__facebook{
+        background: white;
+        padding:8px 10px 8px 10px;
+} 
+.b__reserved{
+    font-size: 16px;
+line-height: 19px;
+color: #FBFBFB;
+   padding-top:30px;
+    padding-bottom: 30px;
+}
+.b__socialnetwork{
+    padding-top:24px;
+    padding-bottom:23px ;
+    display: flex;
+        }
+     .b__socialnetwork__facebook:not(:last-child){
+        margin-right: 10px;
+     }
