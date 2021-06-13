@@ -306,3 +306,57 @@ color: #FBFBFB;
      .b__socialnetwork__facebook:not(:last-child){
         margin-right: 10px;
      }
+ .arrivals{
+     background:#F8F3F4;
+ } 
+ .arrival__left{
+    font-size: 24px;
+    line-height: 29px;    
+    color: #F16D7F;
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+ .arrival__crambs__home__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;    
+color: #636363;    
+ 
+ }   
+.arrival__crambs{
+    padding-top: 65px;
+
+}
+.arrival__crambs__home__nev{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;    
+    color: #F16D7F;
+ }
+ .selection__filter{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;        
+    color: #000000;
+ }
+ .selection{
+     display: flex;
+     justify-content: space-between;
+     max-width: 600px;
+     margin-top:51px;
+ }
+ .selection__sort__trending__arrow{
+margin-left: 10px;
+ }
+ .selection__sort__trending{
+    font-size: 14px;
+    line-height: 17px;     
+    color: #6F6E6E;
+   
+ }
+ .selection__sort{
+     display: flex;
+ }
+ .selection__sort__trending:not(:last-child){
+     margin-right: 20px;
+ }
