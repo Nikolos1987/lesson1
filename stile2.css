@@ -136,8 +136,9 @@ text-align: center;
 .productscard__capsule{
     width: 360px;
     height: 608px;
-
+    position: relative;
 }
+
 .productscard__capsule__text__ellery{
 font-size: 13px;
 line-height: 16px;
@@ -444,4 +445,84 @@ line-height: 29px;
 color: #EF5B70;
 padding-top: 32px;
 padding-bottom: 65px;
+}
+.add__menu__selector__text{
+    font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+}
+.add__menu__selector{
+    display: flex;
+}
+.add__menu__selector__icon{
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+
+}
+.add__menu{
+    display: flex;
+    margin-top: 65px;
+}
+.add__menu__selector{
+display: flex;
+}
+.add__menu__selector:not(:last-child){
+    margin-right: 20px;
+}
+.add__button{
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+line-height: 19px;
+color: #F26376;
+border: 1px solid #FF6A6A;
+background: none;
+width: 211px;
+height: 47px;;
+ justify-content: center;
+cursor: pointer;
+}
+.add__button:hover{
+    background: grey;
+}
+.war{
+    padding-top: 60px;
+}
+.productscard__capsule__shadow{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 360px;
+    height: 420px;
+    background: rgba(58, 56, 56, 0.86);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.productscard__capsule:hover .productscard__capsule__shadow{
+    opacity: 1;
+}
+.productscard__capsule__shadow__button{
+    width: 138px;
+    height: 43px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.productscard__capsule__shadow__button__text{
+    margin-left: 11px;
+}
+.b__socialnetwork__facebook{
+    color: black;
+}
+.b__socialnetwork__facebook:hover{
+    color: white;
+    background: #F16D7F;
 }
