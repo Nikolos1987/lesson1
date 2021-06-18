@@ -1,0 +1,87 @@
+$color: #F16D7F;
+@mixin size(){
+    font-size: 22px;
+line-height: 26px;
+color: #575757;
+}
+.shoping{
+    background: #F8F3F4;
+    &__shoping-card{
+    padding: 59px 0 59px 0;
+    display: flex;} 
+    & p{color:$color;
+        font-size: 24px;
+        line-height: 29px;
+    }       
+}
+.input-menu__left{
+    box-shadow: 15px 15px 5px 5px  #E5E5E5;
+    display: flex;
+    max-width: 652px;
+    justify-content: space-between;
+        &__cards__image{
+        width: 260px;
+        height: 306px;
+    }
+    &__cards__text{
+        margin-left:31px ;
+        margin-top: 22px;
+        max-width: 220px;
+    }
+    & h1{
+        font-size: 24px;
+        line-height: 29px;
+             color: #222222;
+            
+    }
+    & span{
+        color:$color;
+        font-size: 22px;
+line-height: 26px;
+    }
+    & p{
+        @include size() ;
+    }
+    & input{
+        width: 43px;
+    }
+    &__exit{
+        margin-left: 122px;
+    }
+     
+ 
+
+}
+.input-menu{
+    display:flex;
+    justify-content: space-between;
+}
+.input-menu__right{
+    & .region{
+        display: block;
+        width: 359px;
+        height: 44px;
+        margin-top: 21px;
+    }
+    & button{
+        width: 100px;
+        height: 34px;
+        margin-top: 24px;
+        border: 1px solid #A4A4A4;
+        background: none;
+        font-size: 11px;
+line-height: 13px;
+cursor: pointer;
+color: #4A4A4A;
+& p{
+    font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+color: #222222;
+}
+
+
+    }
+  
+}

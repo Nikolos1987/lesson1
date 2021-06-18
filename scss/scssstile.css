@@ -1,0 +1,101 @@
+.shoping {
+  background: #F8F3F4;
+}
+
+.shoping__shoping-card {
+  padding: 59px 0 59px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shoping p {
+  color: #F16D7F;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.input-menu__left {
+  -webkit-box-shadow: 15px 15px 5px 5px  #E5E5E5;
+          box-shadow: 15px 15px 5px 5px  #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 652px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input-menu__left__cards__image {
+  width: 260px;
+  height: 306px;
+}
+
+.input-menu__left__cards__text {
+  margin-left: 31px;
+  margin-top: 22px;
+  max-width: 220px;
+}
+
+.input-menu__left h1 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+
+.input-menu__left span {
+  color: #F16D7F;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.input-menu__left p {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.input-menu__left input {
+  width: 43px;
+}
+
+.input-menu__left__exit {
+  margin-left: 122px;
+}
+
+.input-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input-menu__right .region {
+  display: block;
+  width: 359px;
+  height: 44px;
+  margin-top: 21px;
+}
+
+.input-menu__right button {
+  width: 100px;
+  height: 34px;
+  margin-top: 24px;
+  border: 1px solid #A4A4A4;
+  background: none;
+  font-size: 11px;
+  line-height: 13px;
+  cursor: pointer;
+  color: #4A4A4A;
+}
+
+.input-menu__right button p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+/*# sourceMappingURL=scssstile.css.map */
