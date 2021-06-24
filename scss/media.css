@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 1100px) and (min-width: 721px) {
+  .container {
+    max-width: 739px;
+  }
+  .cards__forwooman {
+    width: 232px;
+    height: 168px;
+    background-size: 100%;
+  }
+  .cards__formen {
+    width: 232px;
+    height: 168px;
+    background-size: 100%;
+  }
+  .cards__forkids {
+    width: 232px;
+    height: 168px;
+    background-size: 100%;
+  }
+  .cards__accesories {
+    height: 116px;
+    background-size: 100%;
+  }
+  .delivery__setting {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .delivery__car {
+    padding-top: 38px;
+  }
+  .delivery__lowtext {
+    padding-bottom: 0;
+  }
+  .delivery:last-child {
+    padding-bottom: 64px;
+  }
+  .input {
+    height: 693px;
+  }
+  .b {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .intro {
+    height: 367px;
+  }
+  .intro__wrap {
+    background-size: 53%;
+    background-position: -96px;
+  }
+  .intro__wrap__text {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro {
+    height: 363px;
+  }
+  .intro__wrap {
+    background: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 363px;
+  }
+  .intro__wrap__text {
+    margin-right: 0;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .productscard {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .b {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .b .input {
+    height: 550px;
+  }
+  .input {
+    height: 550px;
+  }
+  .input__photo__pic {
+    padding-top: 54px;
+  }
+  .delivery__setting {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .delivery__car {
+    padding-top: 38px;
+  }
+  .delivery__lowtext {
+    padding-bottom: 0;
+  }
+  .delivery:last-child {
+    padding-bottom: 64px;
+  }
+  .d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro__wrap__text {
+    max-width: 332px;
+  }
+  .header__burgermenu__search:nth-child(odd) {
+    display: none;
+  }
+  .cards__forwooman {
+    margin-top: 32px;
+  }
+  .cards__formen {
+    margin-top: 32px;
+  }
+  .cards__forkids {
+    margin-top: 32px;
+  }
+  .header__search {
+    margin-left: 16px;
+  }
+  .header__burgermenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=media.css.map */

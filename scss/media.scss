@@ -1,0 +1,129 @@
+@mixin size(){width: 232px;
+    height: 168px;
+    background-size: 100%;
+}
+*{margin: 0;
+padding:0;
+box-sizing:border-box;}
+@media (max-width: 1100px) and (min-width:721px){
+.container{max-width: 739px;}
+.cards__forwooman{
+    @include size()}
+    
+.cards__formen{
+@include size()
+}
+.cards__forkids{
+    @include size()
+}
+.cards__accesories{
+    height:116px ;
+    background-size: 100%;
+}
+.delivery__setting{
+    flex-direction: column;
+       align-items: center;
+}
+.delivery__car{
+      padding-top:38px;
+}
+.delivery__lowtext{
+    padding-bottom: 0;
+
+}
+.delivery:last-child{
+    padding-bottom: 64px
+}
+.input{
+    height: 693px;
+}
+.b {
+    flex-direction: column;
+    align-items: center;
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    height: 367px;
+}
+.intro__wrap{
+    background-size: 53%;
+    background-position: -96px;
+}
+.intro__wrap__text{
+    margin-right: 0;
+}
+}
+@media(max-width: 720px){
+    .intro{
+        height: 363px;
+    }
+    .intro__wrap{
+        background: none;
+        justify-content: center;
+        height: 363px;
+        &__text{
+            margin-right: 0;
+        }
+    }
+    .cards{
+        display:flex;
+        justify-content: center;
+    }
+    .productscard{
+        justify-content: center;
+    }
+    .d{
+        display: flex;
+        justify-content: space-between;
+    }
+    .b {
+        flex-direction: column;
+        align-items: center;
+        .input {
+    height: 550px;
+}    
+
+}
+.input{
+    height: 550px;
+}
+.input__photo__pic{
+    padding-top: 54px;
+}
+.delivery__setting{
+    flex-direction: column;
+       align-items: center;
+}
+.delivery__car{
+      padding-top:38px;
+}
+.delivery__lowtext{
+    padding-bottom: 0;
+
+}
+.delivery:last-child{
+    padding-bottom: 64px
+}
+.d{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.intro__wrap__text{
+    max-width: 332px;
+}
+.header__burgermenu__search:nth-child(odd){
+    display: none;}
+    .cards__forwooman {margin-top: 32px;}
+    .cards__formen{margin-top: 32px;}
+    .cards__forkids{margin-top: 32px;}
+    .header__search{margin-left:16px;}
+    .header__burgermenu{
+        display: flex;
+        align-items: center;
+      }
+}
+
