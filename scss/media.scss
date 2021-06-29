@@ -5,6 +5,41 @@
 *{margin: 0;
 padding:0;
 box-sizing:border-box;}
+.burger{
+    
+    background-color: black;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.test{
+    background: none;
+    border:none ;
+    margin-left: 203px;
+    margin-top: 16px;
+}
+.nav{
+    position: absolute;
+    width: 232px;
+        right: 0;
+    top: 0;
+background: #FFFFFF;
+z-index: 1;
+}
+& .selection__filter__category__category{
+  border-left: none;
+   padding-left: 33px;
+    }
+    & .selection__filter__category__category__list{
+        padding-left: 33px;
+    }
+
+.open{
+    display: block;
+}
+.close{
+    display: none;
+}
 @media (max-width: 1100px) and (min-width:721px){
 .container{max-width: 739px;}
 .cards__forwooman{
@@ -57,6 +92,9 @@ box-sizing:border-box;}
 }
 }
 @media(max-width: 720px){
+    .input-menu__right{
+        display: flex;
+        }
     .intro{
         height: 363px;
     }
@@ -125,5 +163,8 @@ box-sizing:border-box;}
         display: flex;
         align-items: center;
       }
+.input-menu__right{
+    display: flex;
 }
+    }
 

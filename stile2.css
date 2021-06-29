@@ -28,6 +28,7 @@ header{
 .intro{
     height: 768px;
     background: #F1E4E6;
+    position: relative;
 }
 .intro__wrap__text{
     max-width: 450px;
@@ -310,6 +311,7 @@ color: #FBFBFB;
      }
  .arrivals{
      background:#F8F3F4;
+     position: relative;
  } 
  .arrival__left{
     font-size: 24px;
