@@ -18,8 +18,9 @@ color: #575757;
     margin-top:40px ;
     box-shadow: 15px 15px 5px 5px  #E5E5E5;
     display: flex;
-    max-width: 652px;
+  max-width: 652px;
     justify-content: space-between;
+    
         &__cards__image{
         width: 260px;
         height: 306px;
@@ -59,8 +60,8 @@ line-height: 26px;
     flex-wrap: wrap;    
 }
 .input-menu__right{
- 
-    margin-left: 20px;
+
+     margin-left: 20px;
     margin-top: 113px;
     & .region{
         display: block;

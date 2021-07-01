@@ -28,21 +28,8 @@
   z-index: 1;
 }
 
-.nav p {
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-  padding-top: 37px;
-  padding-left: 34px;
-  padding-bottom: 20px;
-}
-
-.nav .selection__filter__category__category {
+.selection__filter__category__category {
   border-left: none;
-  padding-left: 33px;
-}
-
-.nav .selection__filter__category__category__list {
   padding-left: 33px;
 }
 
@@ -55,18 +42,8 @@
 }
 
 @media (max-width: 1100px) and (min-width: 721px) {
-    }
-    .inpu-menu{
-      justify-content: center;
-      align-items: center;
-    }
-    .cards{
-      width: 100%;
-      margin: 0;
-      padding: 0;
-    }
   .container {
-    max-width: 739px;
+    max-width: 742px;
   }
   .cards__forwooman {
     width: 232px;
@@ -108,15 +85,6 @@
   .input {
     height: 693px;
   }
-  .b {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .d {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -135,9 +103,80 @@
   .intro__wrap__text {
     margin-right: 0;
   }
-
+  .input-menu__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .input-menu__right__checkout {
+    margin-top: 36px;
+    height: 214px;
+  }
+  .input-menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .shoping__shoping-card p {
+    padding-left: 30px;
+  }
+}
 
 @media (max-width: 720px) {
+  .shoping__shoping-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .input-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .input-menu__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 48px;
+    margin-left: 0;
+  }
+  .input-menu__right div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+  }
   .intro {
     height: 363px;
   }
@@ -181,7 +220,15 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .b .input {
+  .b .arrival__left {
+    padding-bottom: 0;
+    padding-top: 24px;
+  }
+  .b .arrival__crambs {
+    padding-top: 32px;
+    padding-bottom: 46px;
+  }
+  .input {
     height: 550px;
   }
   .input {
@@ -246,5 +293,47 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  
+  .input-menu__left {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .input-menu__left__cards__image {
+    width: 100%;
+    height: 100%;
+  }
+  .input-menu__left__cards {
+    width: 143px;
+    height: 188px;
+  }
+  .input-menu__left__exit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 0;
+    margin-left: 0;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .input-menu__left__cards__text {
+    margin-left: 17px;
+  }
+  .input-menu__left__button {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .input-menu__left__button button {
+    width: 174px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
+/*# sourceMappingURL=media.css.map */
